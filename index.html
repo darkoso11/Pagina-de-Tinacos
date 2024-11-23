@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./carrusel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Bonaplas</title>
+</head>
+
+<body>
+    <!-- inicio del menu -->
+    <nav class="navbar">
+        <div class="contacto">
+            <p>Cotiza </p>
+            <a href="tel:55 5512 7560" class="telefono"><b>55 5512 7560</b></a>
+        </div>
+        <!-- menu -->
+        <div class="menu">
+            <div class="logo">
+                <a href="#">MiLogo</a>
+            </div>
+            <!-- Botón Hamburguesa -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i> </a>
+              </div>
+              
+        </div>
+    </nav>
+    <!-- Fin del menu -->
+
+    <!-- Header -->
+    <header class="inicio">
+        <div class="inicio-texto">
+            <h1>Bienvenido a Mi Página</h1>
+            <p>Descubre los mejores productos para satisfacer tus necesidades. ¡Estamos aquí para ayudarte!</p>
+            <a href="#productos" class="btn">Ver Productos</a>
+        </div>
+        <div class="inicio-imagen">
+            <img src="./img/Tinacos Varios.png" alt="Producto destacado" class="producto-img">
+        </div>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card-item">
+                    <img src="./img/Tinacos variados.jpg" alt="Tinaco 1">
+                    <button class="message-button">Contacto</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-item">
+                    <img src="./img/Otro ejemplo.jpg" alt="Tinaco 2">
+                    <button class="message-button">Contacto</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-item">
+                    <img src="./img/Tinaco 1.jpg" alt="Tinaco 3">
+                    <button class="message-button">Contacto</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-item">
+                    <img src="./img/Grupo de presentacion.jpg" alt="Tinaco 4">
+                    <button class="message-button">Contacto</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Swiper Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- Swiper JS -->
+
+    <!-- caracteristicas -->
+    <section class="caracteristicas">
+        <h2>Nuestras Características</h2>
+        <div class="recuadros">
+            <div class="recuadro">
+                <h3>Calidad Garantizada</h3>
+                <p>Materiales de alta calidad diseñados para durar.</p>
+            </div>
+            <div class="recuadro">
+                <h3>Envío Rápido</h3>
+                <p>Entrega en tiempo récord en todo el país.</p>
+            </div>
+            <div class="recuadro">
+                <h3>Precios Competitivos</h3>
+                <p>Ofrecemos el mejor valor por tu dinero.</p>
+            </div>
+            <div class="recuadro">
+                <h3>Calidad Garantizada</h3>
+                <p>Materiales de alta calidad diseñados para durar.</p>
+            </div>
+            <div class="recuadro">
+                <h3>Envío Rápido</h3>
+                <p>Entrega en tiempo récord en todo el país.</p>
+            </div>
+            <div class="recuadro">
+                <h3>Precios Competitivos</h3>
+                <p>Ofrecemos el mejor valor por tu dinero.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video demostracions -->
+    <section class="video-seccion">
+        <div class="contenido">
+            <h2>Conoce más sobre nosotros</h2>
+            <p>Descubre cómo nuestros productos y servicios pueden ayudarte a lograr tus objetivos.</p>
+            <div class="video-contenedor">
+                <video controls>
+                    <source src="./vid/tinacos elaboracion.mp4" type="video/mp4">
+                    Tu navegador no soporta videos. Por favor, actualiza tu navegador.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Seccion -->
+    <section class="contacto-seccion">
+        <div class="contenedor-contacto">
+            <div class="informacion">
+                <h2>Contáctanos</h2>
+                <p>¿Tienes alguna pregunta o necesitas más información? Estamos aquí para ayudarte.</p>
+                <ul>
+                    <li><strong>Teléfono:</strong> <a href="tel:+525555127560">+52 55 5512 7560</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:info@tudominio.com">info@tudominio.com</a></li>
+                    <li><strong>Dirección:</strong> Calle Principal #123, Ciudad, País</li>
+                </ul>
+            </div>
+
+            <form class="formulario-contacto">
+                <h3>Envíanos un mensaje</h3>
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <!-- Navegación -->
+            <div class="footer-nav">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#acerca-de">Acerca de</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i> </a>
+                </div>
+            </div>
+
+            <!-- Información adicional -->
+            <div class="footer-info">
+                <h3>Contáctanos</h3>
+                <p><strong>Teléfono:</strong> <a href="tel:+525555127560">+52 55 5512 7560</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@tudominio.com">info@tudominio.com</a></p>
+                <p><strong>Dirección:</strong> Calle Principal #123, Ciudad, País</p>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
