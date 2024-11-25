@@ -254,7 +254,7 @@
   color: #FFFAF6;
   text-align: center;
   padding: 50px 20px;
-  height: 100vh;
+  /* height: 100vh; */
   /* padding-top: 150px; */
 }
 
@@ -516,6 +516,7 @@ video {
 
 }
 
+
 @media (max-width: 768px) {
 
   .hamburger {
@@ -538,8 +539,21 @@ video {
 
 }
 
+
 @media (max-width: 480px) {
+  .inicio-texto h1 {
+    font-size: 2rem;
+}
   .recuadros {
     grid-template-columns: 1fr; /* Cambia a 1 columna en pantallas pequeñas */
+  }
+  .video-contenedor {
+    position: relative;
+    max-width: 300px;
+
+  }
+
+  .caracteristicas {
+    height: auto;
   }
 }

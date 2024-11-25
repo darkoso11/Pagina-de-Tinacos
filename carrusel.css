@@ -13,6 +13,11 @@
     display: flex;
 }
 
+.swiper-backface-hidden .swiper-slide {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 .swiper-slide {
     width: auto; /* Ajusta el ancho automáticamente */
     display: flex;
